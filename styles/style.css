@@ -164,14 +164,100 @@ main {
   height: 2335px;
   margin: 0 auto;
   margin-top: -15px;
-  background-color: red;
 }
 
-.left-menu {
+.sidebar {
   width: 270px;
-  height: 805px;
   float: left;
-  background-color: #26d2fc;
+}
+
+.main-menu {
+  margin: 0;
+  padding: 0;
+  background-color: #9ed0db;
+}
+
+.main-menu li {
+  list-style-type: none;
+  position: relative;
+}
+
+.main-menu li a {
+  display: block;
+  padding: 15px 42px;
+  font-family: "Roboto Black", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-menu li a:hover {
+  background: #333333;
+  color: white;
+}
+
+.main-menu-header a {
+  color: white;
+  padding: 25px 42px;
+  background: #333333;
+}
+
+.sub-menu {
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 270px;
+  display: none;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  background-color: #75e3fe;
+}
+
+.sub-menu li {
+  margin: -1px;
+ }
+
+.main-menu li:hover .sub-menu {
+  display: block;
+} 
+
+.sub-sub-menu {
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 201px;
+  z-index: 10;
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: #81e6ff;
+}
+
+.sub-menu li:hover .sub-sub-menu {
+  display: block;
+} 
+
+.banner {
+  width: 270px;
+  height: 347px;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.banner-content {
+  padding: 169px 57px 50px 116px;
+  background: url('../images/store.jpg') no-repeat;
+  color: #9ed0db;
+  text-shadow: 1px 1px 2px #5e5e5e;
+  font-family: 'Raleway Black', sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  line-height: 36px;
+  text-transform: uppercase;
 }
 
 .content {
