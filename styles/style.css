@@ -41,7 +41,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgba(143,201,212,0.6);
+  background-color: rgb(219,238,242);
   font-family: 'Raleway', sans-serif;
 }
 
@@ -185,7 +185,7 @@ main {
 .main-menu li a {
   display: block;
   padding: 15px 42px;
-  font-family: "Roboto Black", sans-serif;
+  font-family: 'Roboto Black', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -260,11 +260,96 @@ main {
   text-transform: uppercase;
 }
 
-.content {
+.products {
   width: 870px;
-  height: 2320px;
+  height: 1659px;
   float: right;
-  background-color: grey;
+  background-color: rgb(219,238,242);
+}
+
+.products-header {
+  width: 100%;
+  padding: 30px;
+  color: #707070;
+  font-family: 'Roboto Black', sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.products-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 270px;
+  height: 320px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.product-image {
+  width: 250px;
+  height: 232px;
+  margin: 10px;
+  background-color: #eaeaea;
+}
+
+.product-description {
+  width: 137px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 26px;
+  font-size: 14px;
+  font-family: "Roboto Black Italic", sans-serif;
+  max-height: 2.2em;
+  overflow: hidden;
+}
+
+.product-price {
+  width: 85px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 22px;
+  text-align: right;
+  font-size: 18px;
+  font-family: 'Roboto Black Italic', sans-serif;
+  line-height: 0.95;
+}
+
+.product-price-old {
+  color: #e24602;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.product-new,
+.product-hot {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 7px 4px 0 0;
+  font-size: 8px;
+  font-family: 'Roboto Black', sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.product-new {
+  color: #fff;
+  background: url("../images/new-corner.png") no-repeat right top;
+}
+
+.product-hot {
+  color: #000;
+  background: url("../images/hot-corner.png") no-repeat right top;
 }
 
 footer {
