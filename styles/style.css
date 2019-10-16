@@ -1,41 +1,41 @@
 @font-face {
   font-family: "Roboto Regular";
-  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto.woff");
 }
 
 @font-face {
   font-family: "Roboto Bold";
-  src: url("../fonts/Roboto-Bold.ttf");
+  src: url("../fonts/Robotobold.woff");
 }
 
 @font-face {
   font-family: "Roboto Black";
-  src: url("../fonts/Roboto-Black.ttf");
+  src: url("../fonts/Robotoblack.woff");
 }
 
 @font-face {
   font-family: "Roboto Black Italic";
-  src: url("../fonts/Roboto-Black-Italic.ttf");
+  src: url("../fonts/Robotoblackitalic.woff");
 }
 
 @font-face {
   font-family: "Raleway Black";
-  src: url("../fonts/Raleway-Black.ttf");
+  src: url("../fonts/ralewayblack.woff");
 }
 
 @font-face {
   font-family: "Raleway Bold";
-  src: url("../fonts/Raleway-Bold.ttf");
+  src: url("../fonts/ralewaybold.woff");
 }
 
 @font-face {
   font-family: "Raleway Bold Italic";
-  src: url("../fonts/Raleway-Bold-Italic.ttf");
+  src: url("../fonts/ralewaybolditalic.woff");
 }
 
 @font-face {
   font-family: "Raleway Regular";
-  src: url("../fonts/Raleway-Regular.ttf");
+  src: url("../fonts/ralewayregular.woff");
 }
 
 body {
@@ -435,15 +435,178 @@ main {
   background-color: #cb2027;
 }
 
-footer {
+.footer-top {
   width: 100%;
   height: 350px;
   background-color: #373737;
 }
 
-.footer-container {
+.footer-top-container {
   width: 1170px;
   height: inherit;
   margin: 0 auto;
-  background-color: lightgrey;
+  padding-top: 75px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
 }
+
+.footer-block-category {
+  margin-left: 27px;
+}
+
+.footer-block-header {
+  color: #ffffff;
+  font-family: 'Raleway Bold', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-block-list {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.footer-block-list li a {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.footer-block-category {
+  margin-left: 27px;
+}
+
+.footer-block-our-account {
+  margin-left: 80px;
+}
+
+.footer-block-our-support {
+  margin-left: 89px;
+}
+
+.footer-block-newsletter {
+  margin-left: 68px;
+  width: 290px;
+}
+
+.footer-block-description {
+  margin-top: 18px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.footer-block-newsletter {
+  width: 267px;
+  box-sizing: border-box;
+}
+
+.footer-block-newsletter input,
+.footer-block-newsletter button {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+.footer-block-newsletter input {
+  width: 134px;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #fff51f;
+  font-family: 'Roboto Bold', sans-serif;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.footer-block-newsletter button {
+  width: 86px;
+  height: 31px;
+  margin-top: -1px;
+  padding: 0 10px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-block-newsletter button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.footer-block-newsletter-payments {
+  width: 100%;
+  float: left;
+  margin-top: 40px;
+  margin-left: -9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-block-about-us {
+  width: 258px;
+  height: 85px;
+  margin-left: 46px;
+}
+
+.footer-block-about-us-phone,
+.footer-block-about-us-email {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.footer-block-about-us-phone .phone {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.footer-block-about-us-email .email {
+  display: inline-block;
+  margin-left: 10px;
+  color: #faef03;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 50px;
+  background-color: #333333;
+}
+
+.footer-bottom-container {
+  width: 1170px;
+  height: inherit;
+  margin: 0 auto;
+  padding-top: 17px;
+  box-sizing: border-box;
+}
+
+.footer-bottom-rights {
+  float: left;
+  color: #dad9d9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 21.6px;
+}
+
+.footer-bottom-social {
+  float: right;
+}
+
+.footer-bottom-social i {
+  margin-left: 14px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
+
