@@ -1,54 +1,53 @@
 @font-face {
-  font-family: "Roboto Regular";
-  src: url("../fonts/Roboto.woff");
+  font-family: 'Roboto Regular';
+  src: url('../fonts/Roboto.ttf');
 }
 
 @font-face {
-  font-family: "Roboto Bold";
-  src: url("../fonts/Robotobold.woff");
+  font-family: 'Roboto Bold';
+  src: url('../fonts/Robotobold.ttf');
 }
 
 @font-face {
-  font-family: "Roboto Black";
-  src: url("../fonts/Robotoblack.woff");
+  font-family: 'Roboto Black';
+  src: url('../fonts/Robotoblack.ttf');
 }
 
 @font-face {
-  font-family: "Roboto Black Italic";
-  src: url("../fonts/Robotoblackitalic.woff");
+  font-family: 'Roboto Black Italic';
+  src: url('../fonts/Robotoblackitalic.ttf');
 }
 
 @font-face {
-  font-family: "Raleway Black";
-  src: url("../fonts/ralewayblack.woff");
+  font-family: 'Raleway Black';
+  src: url('../fonts/Raleway-Black.ttf');
 }
 
 @font-face {
-  font-family: "Raleway Bold";
-  src: url("../fonts/ralewaybold.woff");
+  font-family: 'Raleway Bold';
+  src: url('../fonts/Raleway-Bold.ttf');
 }
 
 @font-face {
-  font-family: "Raleway Bold Italic";
-  src: url("../fonts/ralewaybolditalic.woff");
+  font-family: 'Raleway Bold Italic';
+  src: url('../fonts/Raleway-BoldItalic.ttf');
 }
 
 @font-face {
-  font-family: "Raleway Regular";
-  src: url("../fonts/ralewayregular.woff");
+  font-family: 'Raleway Regular';
+  src: url('../fonts/Raleway-Regular.ttf');
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(219,238,242);
-  font-family: 'Raleway', sans-serif;
 }
 
 header {
   width: 100%;
   height: 700px;
-  background: url("../images/index-back.jpg") no-repeat;
+  background: url('../images/index-back.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -98,7 +97,7 @@ header {
   position: relative;
   top: 76px;
   left: 26px;
-  font-family: "Raleway Bold", sans-serif;
+  font-family: 'Raleway Bold', sans-serif;
   font-size: 30px;
   text-transform: uppercase;
   line-height: 1.1;
@@ -108,7 +107,7 @@ header {
   position: relative;
   top: 94px;
   left: 23px;
-  font-family: "Raleway Bold Italic", sans-serif;
+  font-family: 'Raleway Bold Italic', sans-serif;
   font-size: 18px;
   font-style: italic;
   line-height: 0.8;
@@ -121,19 +120,19 @@ header {
 }
 
 .promo-header {
-  font-size: 48px;
   color: #9ed0db;
-  font-family: "Raleway Bold", sans-serif;
+  font-family: 'Raleway Bold', sans-serif;
+  font-size: 48px;
   text-transform: uppercase;
   line-height: 0.8;
   text-shadow: 1px 1px 2px #5e5e5e;
 }
 
 .promo-description {
-  font-family: "Raleway Regular", sans-serif;
-  font-size: 18px;
-  color: #9ed0db;
   margin-top: 4px;
+  color: #9ed0db;
+  font-family: 'Raleway Regular', sans-serif;
+  font-size: 18px;
   line-height: 1.35;
   text-shadow: 1px 1px 1px #000000;
 }
@@ -143,9 +142,9 @@ header {
   margin-top: 60px;
   padding: 19px 28px;
   background-color: #9ed0db;
-  font-family: "Raleway Black", sans-serif;
-  font-size: 14px;
   color: #000000;
+  font-family: 'Raleway Black', sans-serif;
+  font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -178,29 +177,29 @@ main {
 }
 
 .main-menu li {
-  list-style-type: none;
   position: relative;
+  list-style-type: none;
 }
 
 .main-menu li a {
   display: block;
   padding: 15px 42px;
+  color: #000000;
   font-family: 'Roboto Black', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #000;
 }
 
 .main-menu li a:hover {
   background: #333333;
-  color: white;
+  color: #ffffff;
 }
 
 .main-menu-header a {
-  color: white;
   padding: 25px 42px;
   background: #333333;
+  color: #ffffff;
 }
 
 .sub-menu {
@@ -305,7 +304,7 @@ main {
   margin-top: 5px;
   margin-left: 26px;
   font-size: 14px;
-  font-family: "Roboto Black Italic", sans-serif;
+  font-family: 'Roboto Black Italic', sans-serif;
   max-height: 2.2em;
   overflow: hidden;
 }
@@ -343,13 +342,13 @@ main {
 }
 
 .product-new {
-  color: #fff;
-  background: url("../images/new-corner.png") no-repeat right top;
+  background: url('../images/new-corner.png') no-repeat right top;
+  color: #ffffff;
 }
 
 .product-hot {
-  color: #000;
-  background: url("../images/hot-corner.png") no-repeat right top;
+  background: url('../images/hot-corner.png') no-repeat right top;
+  color: #000000;
 }
 
 .brands {
@@ -381,8 +380,14 @@ main {
   font-size: 22px;
 }
 
-.instagram-feed-header span {
+.instagram-feed-header a {
+  color: #333333;
   font-size: 18px;
+  text-decoration: none;
+}
+
+.instagram-feed-header a:hover {
+  color: #ffffff;
 }
 
 .instagram-feed-images {
@@ -404,13 +409,12 @@ main {
   width: 100%;
   height: 150px;
   float: left;
-  background-color: red;
   display: flex;
   flex-direction: row;
 }
 
 .big-social a {
-  width: 33.3333333333333333%;
+  width: 33.33333333333333%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -418,8 +422,13 @@ main {
   text-decoration: none;
 }
 
+.big-social a:hover {
+  opacity: 0.7;
+
+}
+
 .big-social a i {
-  color: #fff;
+  color: #ffffff;
   font-size: 4.5rem;
 }
 
@@ -447,12 +456,6 @@ main {
   margin: 0 auto;
   padding-top: 75px;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-block-category {
-  margin-left: 27px;
 }
 
 .footer-block-header {
@@ -475,20 +478,23 @@ main {
   text-decoration: none;
 }
 
+.footer-block-list li a:hover {
+  color: #faef03;
+}
+
 .footer-block-category {
-  margin-left: 27px;
+  float: left;
+  margin-left: 25px;
 }
 
-.footer-block-our-account {
-  margin-left: 80px;
-}
-
-.footer-block-our-support {
-  margin-left: 89px;
+.footer-block-our-account,
+.footer-block-our-support,
+.footer-block-newsletter {
+  float: left;
+  margin-left: 50px;
 }
 
 .footer-block-newsletter {
-  margin-left: 68px;
   width: 290px;
 }
 
@@ -496,49 +502,51 @@ main {
   margin-top: 18px;
   margin-bottom: 20px;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-size: 12px;
   line-height: 22px;
 }
 
-.footer-block-newsletter {
-  width: 267px;
-  box-sizing: border-box;
-}
-
 .footer-block-newsletter input,
 .footer-block-newsletter button {
-  float: left;
   height: 30px;
-  line-height: 30px;
+  float: left;
+}
+
+.footer-block-newsletter input:focus,
+.footer-block-newsletter button:active,
+.footer-block-newsletter button:focus {
+  outline: none;
 }
 
 .footer-block-newsletter input {
-  width: 134px;
+  width: 180px;
+  height: 30px;
   border: none;
+  padding-top: 5px;
   padding-left: 5px;
-  padding-right: 5px;
   background: #fff51f;
-  font-family: 'Roboto Bold', sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 12px;
   text-transform: uppercase;
   box-sizing: border-box;
 }
 
 .footer-block-newsletter button {
-  width: 86px;
-  height: 31px;
-  margin-top: -1px;
-  padding: 0 10px;
-  background: #000;
-  color: #fff;
+  width: 80px;
+  height: 30px;
+  background: #000000;
+  color: #ffffff;
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 12px;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
 }
 
 .footer-block-newsletter button:hover {
-  background: #fff;
-  color: #000;
+  background: #ffffff;
+  color: #000000;
 }
 
 .footer-block-newsletter-payments {
@@ -554,7 +562,7 @@ main {
 .footer-block-about-us {
   width: 258px;
   height: 85px;
-  margin-left: 46px;
+  float: right;
 }
 
 .footer-block-about-us-phone,
@@ -593,13 +601,18 @@ main {
 .footer-bottom-rights {
   float: left;
   color: #dad9d9;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-size: 12px;
   line-height: 21.6px;
 }
 
 .footer-bottom-social {
   float: right;
+  margin-right: 24px;
+}
+
+.footer-bottom-social a {
+  text-decoration: none;
 }
 
 .footer-bottom-social i {
@@ -608,5 +621,7 @@ main {
   color: #ffffff;
 }
 
-
+.footer-bottom-social i:hover {
+ color: #faef03;
+}
 
