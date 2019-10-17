@@ -1,26 +1,6 @@
 @font-face {
-  font-family: 'Roboto Regular';
-  src: url('../fonts/Roboto.ttf');
-}
-
-@font-face {
-  font-family: 'Roboto Bold';
-  src: url('../fonts/Robotobold.ttf');
-}
-
-@font-face {
-  font-family: 'Roboto Black';
-  src: url('../fonts/Robotoblack.ttf');
-}
-
-@font-face {
-  font-family: 'Roboto Black Italic';
-  src: url('../fonts/Robotoblackitalic.ttf');
-}
-
-@font-face {
-  font-family: 'Raleway Black';
-  src: url('../fonts/Raleway-Black.ttf');
+  font-family: 'Raleway Extrabold';
+  src: url('../fonts/Raleway-ExtraBold.ttf');
 }
 
 @font-face {
@@ -36,6 +16,31 @@
 @font-face {
   font-family: 'Raleway Regular';
   src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Heavy';
+  src: url('../fonts/Raleway-Heavy.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url('../fonts/Robotoblack.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Black Italic';
+  src: url('../fonts/Robotoblackitalic.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('../fonts/Robotobold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('../fonts/Roboto.ttf');
 }
 
 body {
@@ -109,7 +114,6 @@ header {
   left: 23px;
   font-family: 'Raleway Bold Italic', sans-serif;
   font-size: 18px;
-  font-style: italic;
   line-height: 0.8;
 }
 
@@ -143,7 +147,7 @@ header {
   padding: 19px 28px;
   background-color: #9ed0db;
   color: #000000;
-  font-family: 'Raleway Black', sans-serif;
+  font-family: 'Raleway Heavy', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -252,7 +256,7 @@ main {
   background: url('../images/store.jpg') no-repeat;
   color: #9ed0db;
   text-shadow: 1px 1px 2px #5e5e5e;
-  font-family: 'Raleway Black', sans-serif;
+  font-family: 'Raleway Heavy', sans-serif;
   font-size: 36px;
   font-style: italic;
   line-height: 36px;
@@ -270,9 +274,8 @@ main {
   width: 100%;
   padding: 30px;
   color: #707070;
-  font-family: 'Roboto Black', sans-serif;
+  font-family: 'Roboto Black Italic', sans-serif;
   font-size: 22px;
-  font-style: italic;
   text-transform: uppercase;
   box-sizing: border-box;
 }
@@ -306,7 +309,6 @@ main {
   font-size: 14px;
   font-family: 'Roboto Black Italic', sans-serif;
   max-height: 2.2em;
-  overflow: hidden;
 }
 
 .product-price {
@@ -456,6 +458,9 @@ main {
   margin: 0 auto;
   padding-top: 75px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer-block-header {
@@ -472,7 +477,7 @@ main {
 
 .footer-block-list li a {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-size: 12px;
   line-height: 22px;
   text-decoration: none;
@@ -483,15 +488,7 @@ main {
 }
 
 .footer-block-category {
-  float: left;
   margin-left: 25px;
-}
-
-.footer-block-our-account,
-.footer-block-our-support,
-.footer-block-newsletter {
-  float: left;
-  margin-left: 50px;
 }
 
 .footer-block-newsletter {
@@ -504,7 +501,7 @@ main {
   color: #ffffff;
   font-family: 'Roboto Regular', sans-serif;
   font-size: 12px;
-  line-height: 22px;
+  line-height: 12px;
 }
 
 .footer-block-newsletter input,
@@ -523,7 +520,6 @@ main {
   width: 180px;
   height: 30px;
   border: none;
-  padding-top: 5px;
   padding-left: 5px;
   background: #fff51f;
   font-family: 'Roboto Regular', sans-serif;
@@ -562,13 +558,12 @@ main {
 .footer-block-about-us {
   width: 258px;
   height: 85px;
-  float: right;
 }
 
 .footer-block-about-us-phone,
 .footer-block-about-us-email {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Regular', sans-serif;
   font-size: 14px;
   line-height: 23px;
 }
