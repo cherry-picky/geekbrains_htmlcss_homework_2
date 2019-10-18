@@ -335,9 +335,10 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 7px 4px 0 0;
-  font-size: 8px;
-  font-family: 'Roboto Black', sans-serif;
+  padding: 8px 4px 0 0;
+  font-size: 9px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
   text-align: right;
   box-sizing: border-box;
